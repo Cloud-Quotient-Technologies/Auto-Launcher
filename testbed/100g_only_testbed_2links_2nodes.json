@@ -8,8 +8,8 @@
             "password": "", 
             "platform": "", 
             "ports": {
-                "DUT1_P1": "fpPort11", 
-                "DUT1_P2": "fpPort12"
+                "DUT1_P1": "intf11", 
+                "DUT1_P2": "intf12"
             }, 
             "processor": "", 
             "username": ""
@@ -22,8 +22,8 @@
             "password": "", 
             "platform": "", 
             "ports": {
-                "DUT2_P1": "fpPort21", 
-                "DUT2_P2": "fpPort22"
+                "DUT2_P1": "intf21", 
+                "DUT2_P2": "intf22"
             }, 
             "processor": "", 
             "username": ""
