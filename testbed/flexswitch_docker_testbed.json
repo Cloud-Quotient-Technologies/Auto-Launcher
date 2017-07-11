@@ -8,8 +8,8 @@
             "password": "", 
             "platform": "", 
             "ports": {
-                "DUT1_P1": "fpPort1", 
-                "DUT1_P2": "fpPort2"
+                "DUT1_P1": "admin1", 
+                "DUT1_P2": "admin2"
             }, 
             "processor": "", 
             "username": ""
@@ -22,8 +22,8 @@
             "password": "", 
             "platform": "", 
             "ports": {
-                "DUT2_P1": "fpPort3", 
-                "DUT2_P2": "fpPort7"
+                "DUT2_P1": "admin3", 
+                "DUT2_P2": "admin7"
             }, 
             "processor": "", 
             "username": ""
@@ -36,8 +36,8 @@
             "password": "", 
             "platform": "", 
             "ports": {
-                "DUT3_P1": "fpPort4", 
-                "DUT3_P2": "fpPort8"
+                "DUT3_P1": "admin4", 
+                "DUT3_P2": "admin8"
             }, 
             "processor": "", 
             "username": ""
@@ -50,8 +50,8 @@
             "password": "", 
             "platform": "", 
             "ports": {
-                "DUT4_P1": "fpPort5", 
-                "DUT4_P2": "fpPort6"
+                "DUT4_P1": "admin5", 
+                "DUT4_P2": "admin6"
             }, 
             "processor": "", 
             "username": ""
