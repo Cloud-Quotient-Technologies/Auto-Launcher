@@ -3,57 +3,57 @@
         "DUT1": {
             "hostname"  : "DUT1",
 	    "username"  : "admin",
-	    "password"  : "root123",
+	    "password"  : "admin",
 	    "mgmtIP"    : "172.17.0.2",
-            "console"   : "192.100.0.20 -p 3021",
+            "console"   : "10.0.0.1 -p 3021",
             "platform"  : "cisco",
             "ASIC"      : "Broadcom",
             "processor" : "x86",
             "ports"   : {
-                         "DUT1_P1" : "fpPort1",
-			 "DUT1_P2" : "fpPort2"
+                         "DUT1_P1" : "intf1",
+			 "DUT1_P2" : "intf2"
 	                }
         	}, 
         "DUT2": {
             "hostname"  : "DUT2",
 	    "username"  : "admin",
-	    "password"  : "root123",
+	    "password"  : "admin",
 	    "mgmtIP"    : "172.17.0.3",
-            "console"   : "192.100.0.20 -p 3022",
+            "console"   : "10.0.0.1 -p 3022",
             "platform"  : "cisco",
             "ASIC"      : "Broadcom",
             "processor" : "x86",
             "ports"   : {
-                         "DUT2_P1" : "fpPort3", 
-                         "DUT2_P2": "fpPort7"
+                         "DUT2_P1" : "intf3", 
+                         "DUT2_P2": "intf7"
 			}
         	},
 	 "DUT3": {
             "hostname"  : "DUT2",
 	    "username"  : "admin",
-	    "password"  : "root123",
+	    "password"  : "admin",
 	    "mgmtIP"    : "172.17.0.4",
-            "console"   : "192.100.0.20 -p 3023",
+            "console"   : "10.0.0.1 -p 3023",
             "platform"  : "cisco",
             "ASIC"      : "Broadcom",
             "processor" : "x86",
             "ports"   : {
-                         "DUT3_P1" : "fpPort4", 
-                         "DUT3_P2": "fpPort8"
+                         "DUT3_P1" : "intf4", 
+                         "DUT3_P2": "intf8"
                          }
         	},
 	"DUT4": {
             "hostname"  : "DUT2",
 	    "username"  : "admin",
-	    "password"  : "root123",
+	    "password"  : "admin",
 	    "mgmtIP"    : "172.17.0.5",
-            "console"   : "192.100.0.20 -p 3024",
+            "console"   : "10.0.0.1 -p 3024",
             "platform"  : "cisco",
             "ASIC"      : "Broadcom",
             "processor" : "ARM",
             "ports"   : {
-                         "DUT4_P1" : "fpPort5",
-			 "DUT4_P2" : "fpPort6"
+                         "DUT4_P1" : "intf5",
+			 "DUT4_P2" : "intf6"
                          }
         	}
               },
