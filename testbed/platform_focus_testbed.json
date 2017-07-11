@@ -10,11 +10,11 @@
             "ASIC"      : "Broadcom",
             "processor" : "x86",
             "ports"   : {
-                         "DUT1_P1" : "fpPort1",
-			 "DUT1_P2" : "fpPort2",
-			 "DUT1_P3" : "fpPort3",
-			 "DUT1_P4" : "fpPort4",
-			 "DUT1_P5" : "fpPort5"
+                         "DUT1_P1" : "intf1",
+			 "DUT1_P2" : "intf2",
+			 "DUT1_P3" : "intf3",
+			 "DUT1_P4" : "intf4",
+			 "DUT1_P5" : "intf5"
 	                }
         	     }
                   } 
