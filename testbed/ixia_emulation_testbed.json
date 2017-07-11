@@ -3,21 +3,21 @@
         "DUT1": {
             "hostname"  : "DUT1",
 	    "username"  : "admin",
-	    "password"  : "root123",
+	    "password"  : "admin",
 	    "mgmtIP"    : "172.17.0.2",
             "console"   : "192.100.0.20 -p 3021",
             "platform"  : "ixia",
             "ASIC"      : "Broadcom",
             "processor" : "x86",
             "ports"   : {
-                         "DUT1_P1" : "fpPort1",
+                         "DUT1_P1" : "intf",
 			 "DUT1_P2" : "fpPort2"
 	                }
         	}, 
         "DUT2": {
             "hostname"  : "DUT2",
 	    "username"  : "admin",
-	    "password"  : "root123",
+	    "password"  : "admin",
 	    "mgmtIP"    : "172.17.0.3",
             "console"   : "192.100.0.20 -p 3022",
             "platform"  : "ixia",
@@ -31,7 +31,7 @@
 	 "DUT3": {
             "hostname"  : "DUT2",
 	    "username"  : "admin",
-	    "password"  : "root123",
+	    "password"  : "admin",
 	    "mgmtIP"    : "172.17.0.4",
             "console"   : "192.100.0.20 -p 3023",
             "platform"  : "ixia",
@@ -45,7 +45,7 @@
 	"DUT4": {
             "hostname"  : "DUT2",
 	    "username"  : "admin",
-	    "password"  : "root123",
+	    "password"  : "admin",
 	    "mgmtIP"    : "172.17.0.5",
             "console"   : "192.100.0.20 -p 3024",
             "platform"  : "ixia",
