@@ -3,15 +3,14 @@
 
 <head>
 <meta charset="ISO-8859-1">
-<title>NOS TEST TOOL</title>
+<title>Test Launcher</title>
 <script type="text/javascript" src="js/angular.min.js"></script>
 <script type="text/javascript" src="main.js"></script>
 <link rel="stylesheet" href="gui.css">
 </head>
 
 <body ng-controller="NOSController">
-<img src="cqtLogo.jpeg" alt="logo">
-<h1>Robot self-service Test-Launcher</h1>
+<h1>Remote Test-Launcher</h1>
 <div><br /><br />
 
 <form name="myForm">
@@ -71,13 +70,14 @@
     <p></p>
 </div>
 <textarea rows="10" cols="100">
-requestStatus :  {{requestStatus}}
-errorPoint    :  {{errorPoint}}
-responseData  :  {{resdata}}
-headers       :  {{headers}}
-statustext    :  {{statustext}}
-statusval     :  {{statusval}}
-responsetext  :  {{responsetext}}
+
+REQUESTSTATUS           :  {{requestStatus}}
+RESPONSE HEADERS        :  {{headers}}
+RESPONSE DATA           :  {{resdata}}
+RESPONSE STATUS         :  {{statusval}}
+RESPONSE STATUS-TEXT    :  {{statustext}}
+ERROR-POINT             :  {{errorPoint}}
+
 </textarea>
 	
 
