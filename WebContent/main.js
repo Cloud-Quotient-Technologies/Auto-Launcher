@@ -21,7 +21,7 @@ NOS.controller('NOSController', function($scope,$http)
     $scope.TBuser = "";
     $scope.TestStart = "";
     $scope.TestEnd = "";
-    $scope.baseURL = "http://localhost:8080/SR_Server5/rest/";
+    $scope.baseURL = "http://localhost:8080/TestLauncher/rest/";
     
 // HTTP GET request to get the list of available protocol suites
     $http.get($scope.baseURL + "getTBMap")
