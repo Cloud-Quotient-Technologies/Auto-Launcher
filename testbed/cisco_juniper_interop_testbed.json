@@ -7,7 +7,7 @@
 	    "mgmtIP"    : "172.17.0.2",
             "console"   : "10.0.0.1 -p 3021",
             "platform"  : "cisco",
-            "ASIC"      : "Broadcom",
+            "ASIC"      : "",
             "processor" : "x86",
             "ports"   : {
                          "DUT1_P1" : "intf1",
